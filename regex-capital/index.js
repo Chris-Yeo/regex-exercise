@@ -1,5 +1,5 @@
-let regex1 = /[A-Z]/;
-let testing = 'ABC';
+let regex1 = /^[A-Z]/;
+let testing = 'HHS';
 let result = regex1.test(testing)
 console.log(regex1.test(testing));
 
